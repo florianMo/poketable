@@ -22,12 +22,15 @@ import audioDead from './sound/dead.wav'
 import audioBump from './sound/bump.mp3'
 import audioCoin from './sound/coin2.mp3'
 import audioTick from './sound/tick.mp3'
+import audioCount from './sound/count.mp3'
 
 const soundSuccess = new UIfx(audioCoin, {volume: 1})
 const soundLoose = new UIfx(audioDead, {volume: 1})
 const soundFail = new UIfx(audioBump, {volume: 1})
-const soundTick = new UIfx(audioTick, {volume:.15})
+const soundTick = new UIfx(audioTick, {volume: .25})
+const soundCount = new UIfx(audioCount, {volume: .6})
 // const audioTick = new UIfx(audioBip, {volume: 0.4})
+
 
 // ---------- INIT ----------
 
@@ -127,6 +130,9 @@ const App =()=> {
         case 'tick':
           soundTick.play()
           break;
+        case 'count':
+          soundCount.play()
+          break;
         default:
           break;
       }
@@ -141,24 +147,17 @@ const App =()=> {
 
       <Backgroundgradiant color1={'#08AEEA'} color2={'#2AF598'} />
 
-      <Fab 
-        aria-label="sound on / off" 
-        style={{
-          backgroundColor: 'rgba(255,255,255,.2)', 
-          zIndex: 10, 
-          top: '1rem', 
-          right: '1rem',
-          position: 'fixed',
-          opacity: .7,
-        }}
-        onClick={()=> {
-          setConfig({...config, soundOn: !config.soundOn});
-        }}
-        disableRipple
-      >
-        {config.soundOn && <VolumeUpIcon />}
-        {!config.soundOn && <VolumeOffIcon />}
-      </Fab>
+      {(moment === 'init' || moment === 'play') &&
+        <Fab 
+          aria-label="sound on / off" 
+          style={css.fab}
+          onClick={()=> { setConfig({...config, soundOn: !config.soundOn}) }}
+          disableRipple
+        >
+          {config.soundOn && <VolumeUpIcon />}
+          {!config.soundOn && <VolumeOffIcon />}
+        </Fab>
+      }
 
       <AnimatedScreen forMoment={'init'} moment={moment} style={{overflow: 'hidden'}}>
         <Config 

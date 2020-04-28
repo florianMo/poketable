@@ -30,5 +30,13 @@ const css = {
     paddingLeft: 0,
     paddingRight: 0,    
   },
+  fab: {
+    backgroundColor: 'rgba(255,255,255,.2)', 
+    zIndex: 10, 
+    top: '1rem', 
+    right: '1rem',
+    position: 'fixed',
+    opacity: .7,
+  }
 }
 export default css;

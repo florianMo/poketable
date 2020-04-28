@@ -21,7 +21,7 @@ const itemBack = {
 const itemBackTransition = {
   type: 'spring',
   stiffness: 110,
-  damping: 10,
+  damping: 8,
   opacity: { ease: 'linear'},
 }
 const item = {
@@ -35,7 +35,7 @@ const item = {
 const itemTransition = {
   type: 'spring',
   stiffness: 110,
-  damping: 5,
+  damping: 8,
   opacity: { ease: 'linear'},
 }
 

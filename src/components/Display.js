@@ -20,7 +20,8 @@ const Display = ({round, lives, riddle, multi, style, isLost}) => {
           <strong style={{color: 'yellow'}}> = {riddle.s}</strong>
         }
       </div>
-      <div>PV: 
+      <div>
+        <strong style={{opacity: .67, fontSize: '.8em', letterSpacing: '.1em'}}>PV </strong>
         {lives>1 &&
           <strong style={{color: 'lime'}}> {lives}</strong>
         }
