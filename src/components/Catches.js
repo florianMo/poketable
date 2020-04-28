@@ -13,7 +13,7 @@ const Catches = ({list, style}) => {
       <h3 style={{width: '100%'}}>Tu as attrapé <span style={{color: 'navy'}}>{list.length}</span> pokémons</h3>
       {list.map((c,i)=> 
         <article key={c.number} style={{width: '8rem', position: 'relative', textAlign: 'center'}}>
-          <img src={`/img/hd/${c.number}.png`} alt={c.name}/>
+          <img src={`/poketable/img/hd/${c.number}.png`} alt={c.name}/>
           <h5 style={{
             fontWeight: 'bold',
             display: 'inline-flex',
@@ -30,7 +30,7 @@ const Catches = ({list, style}) => {
             {/* <span style={{display: 'block'}}> */}
               {c.type.map(p=>
                 <img 
-                  src={`/img/power-${p}.png`} alt={p}
+                  src={`/poketable/img/power-${p}.png`} alt={p}
                   style={{width: '1.33em', display: 'inline-block', margin: '0 0 0 0.5ch'}}
                 />
               )}

@@ -15,7 +15,7 @@ const Target = ({pokelist, round, isStarted, style, pokeIndex}) => {
         <AnimatePresence>
           <motion.img
             key={pokelist[round+pokeIndex].number}
-            src={`/img/hd/${pokelist[round+pokeIndex].number}.png`}
+            src={`/poketable/img/hd/${pokelist[round+pokeIndex].number}.png`}
             initial={{ opacity: 0, x: '-100%' }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: '100%', rotate: 360, scale: 0}}

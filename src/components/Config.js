@@ -65,7 +65,7 @@ const Config = ({ config, update, onPlay, gotToRanking, playSound }) => {
                 }}
                 key={a.name}
               >
-                <img src={`/img/avatars_portrait/${a.imgPortrait}`} alt='' style={{
+                <img src={`/poketable/img/avatars_portrait/${a.imgPortrait}`} alt='' style={{
                   maxWidth: '100%',
                   opacity: (i===config.avatar) ? 1: .7,
                   }}/>

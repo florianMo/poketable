@@ -116,7 +116,7 @@ const Board = ({ config, moment, update, pokelist, pokeIndex, initRound, playSou
         bottom: '2rem',
       }}>
         <img 
-          src={`/img/avatars_full/${avatars[config.avatar].imgFull}`}
+          src={`/poketable/img/avatars_full/${avatars[config.avatar].imgFull}`}
           alt=''
           style={{height: '100%', width: 'auto', opacity: .9, filter: 'blur(.067rem)', marginLeft: 'auto',}}
         />
