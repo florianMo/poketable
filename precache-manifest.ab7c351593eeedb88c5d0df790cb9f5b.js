@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb93fd35128539fbb309dd7b29a4d332",
+    "revision": "aea7634f2c42ceda2757508f5cee91d9",
     "url": "/poketable/index.html"
   },
   {
-    "revision": "27cabe8e673fdcb966f1",
+    "revision": "cd40c131cc1db479849e",
     "url": "/poketable/static/css/main.3bce0d57.chunk.css"
   },
   {
-    "revision": "82c498c17b455b4dd1f3",
-    "url": "/poketable/static/js/2.cd33858c.chunk.js"
+    "revision": "cb06a04dbfa46c36bddc",
+    "url": "/poketable/static/js/2.1332448e.chunk.js"
   },
   {
     "revision": "512e58aa859c752dc22478474c1d9e1f",
-    "url": "/poketable/static/js/2.cd33858c.chunk.js.LICENSE.txt"
+    "url": "/poketable/static/js/2.1332448e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "27cabe8e673fdcb966f1",
-    "url": "/poketable/static/js/main.e81b38cc.chunk.js"
+    "revision": "cd40c131cc1db479849e",
+    "url": "/poketable/static/js/main.3c8812a0.chunk.js"
   },
   {
     "revision": "9084c669f723b83e8028",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "efa8295f50632f2cceda9a1009ae4fe5",
     "url": "/poketable/static/media/coin2.efa8295f.mp3"
+  },
+  {
+    "revision": "b8a26fddf57294992e39f7e329ff1f6e",
+    "url": "/poketable/static/media/count.b8a26fdd.mp3"
   },
   {
     "revision": "a5375ff591909131a02c59d744258ccf",
