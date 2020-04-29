@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/poketable/static/css/main.bec3944e.chunk.css",
-    "main.js": "/poketable/static/js/main.3c8812a0.chunk.js",
-    "main.js.map": "/poketable/static/js/main.3c8812a0.chunk.js.map",
+    "main.js": "/poketable/static/js/main.b225be80.chunk.js",
+    "main.js.map": "/poketable/static/js/main.b225be80.chunk.js.map",
     "runtime-main.js": "/poketable/static/js/runtime-main.8384eb8e.js",
     "runtime-main.js.map": "/poketable/static/js/runtime-main.8384eb8e.js.map",
     "static/js/2.1332448e.chunk.js": "/poketable/static/js/2.1332448e.chunk.js",
     "static/js/2.1332448e.chunk.js.map": "/poketable/static/js/2.1332448e.chunk.js.map",
     "index.html": "/poketable/index.html",
-    "precache-manifest.d0e149d40150d229fe261dcc418e42f1.js": "/poketable/precache-manifest.d0e149d40150d229fe261dcc418e42f1.js",
+    "precache-manifest.9309c6f9cc4ac464f33e9220a7220162.js": "/poketable/precache-manifest.9309c6f9cc4ac464f33e9220a7220162.js",
     "service-worker.js": "/poketable/service-worker.js",
     "static/css/main.bec3944e.chunk.css.map": "/poketable/static/css/main.bec3944e.chunk.css.map",
     "static/js/2.1332448e.chunk.js.LICENSE.txt": "/poketable/static/js/2.1332448e.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.8384eb8e.js",
     "static/js/2.1332448e.chunk.js",
     "static/css/main.bec3944e.chunk.css",
-    "static/js/main.3c8812a0.chunk.js"
+    "static/js/main.b225be80.chunk.js"
   ]
 }
